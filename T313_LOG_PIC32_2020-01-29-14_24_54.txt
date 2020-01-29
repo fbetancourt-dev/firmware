@@ -1,0 +1,14 @@
+T313 Build Script Version: 0.1.0
+Build Started...
+Build Date: 2020-01-29-14_24_54
+Root Directory: /Users/frank/Desktop/T313_BUILD
+Bootloader Version: 	1.0.1.018 
+Application Version: 	1.1.0.055 
+Manufacturing Version: 	1.0.1.019 
+Agent pid 3557
+2048 SHA256:Z1wGy4B35ZES3HY2S5WW01cRBtF9ghpaEr2/URnPes4 frank@Franciscos-MacBook-Pro.local (RSA)
+
+#################################################
+#################################################
+ Pushing files to bitbucket...
+/Users/frank/Desktop/T313_BUILD/PIC32_OUTPUT/OUTPUT_2020-01-29-14_24_54/
