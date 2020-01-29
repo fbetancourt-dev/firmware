@@ -1,0 +1,8 @@
+This script will build the NRF52 T2XX firmware images
+Usage: bash nrf52build.sh [bootloader_tag] [application_tag] [push]
+To generate the output files without pushing to the server type boot and the app tags
+Example:  bash nrf52build.sh 1.0.1 001
+To push the output files to the server type "push" after the bootloader and app tags
+Example:  bash nrf52build.sh 1.0.1 001 push
+To output all output messages to a file please type "> output.txt 2>&1" at the end
+Example:  bash nrf52build.sh 1.0.1 001 > output.txt 2>&1
