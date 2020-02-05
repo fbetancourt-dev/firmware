@@ -1,0 +1,36 @@
+{
+    "firmwares": [
+        {
+            "Build Date": "2020-02-05-16_22_55",
+            "Build Type": "production",
+            "File Name": "T410_NRF_app_production_012.bin",
+            "File Type": "app/bin",
+            "MCU Type": "NRF",
+            "Radio Type": "T410"
+        },
+        {
+            "Build Date": "2020-02-05-16_22_55",
+            "Build Type": "production",
+            "File Name": "T410_NRF_boot_production_1.0.3.bin",
+            "File Type": "boot/bin",
+            "MCU Type": "NRF",
+            "Radio Type": "T410"
+        },
+        {
+            "Build Date": "2020-02-05-16_22_55",
+            "Build Type": "production",
+            "File Name": "T410_NRF_boot_production_1.0.3_sd_6.0.0.bin",
+            "File Type": "boot_sd/bin",
+            "MCU Type": "NRF",
+            "Radio Type": "T410"
+        },
+        {
+            "Build Date": "2020-02-05-16_22_55",
+            "Build Type": "production",
+            "File Name": "T410_NRF_boot_production_1.0.3_app_production_012_sd_6.0.0_full.hex",
+            "File Type": "boot_app_sd/hex",
+            "MCU Type": "NRF",
+            "Radio Type": "T410"
+        }
+    ]
+}
