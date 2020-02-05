@@ -1,0 +1,31 @@
+{
+    "firmwares": [
+        {
+            "Build Date": "2020-02-05-16_22_50",
+            "Build Type": "production",
+            "File Name": "T410_PIC_app_production_4.0.0.023.bin",
+            "File Type": "app/bin",
+            "MCU Type": "PIC",
+            "PIC Version": "2048",
+            "Radio Type": "T410"
+        },
+        {
+            "Build Date": "2020-02-05-16_22_50",
+            "Build Type": "production",
+            "File Name": "T410_PIC_boot_4.0.0.009.bin",
+            "File Type": "boot/bin",
+            "MCU Type": "PIC",
+            "PIC Version": "2048",
+            "Radio Type": "T410"
+        },
+        {
+            "Build Date": "2020-02-05-16_22_50",
+            "Build Type": "production",
+            "File Name": "T410_PIC_boot_4.0.0.009_app_4.0.0.023.hex",
+            "File Type": "app_boot/hex",
+            "MCU Type": "PIC",
+            "PIC Version": "2048",
+            "Radio Type": "T410"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+T410 Build Script Version: 0.1.3
+Build Started...
+Build Date: 2020-02-05-16_22_50
+Root Directory: /Users/frank/Desktop/T410_BUILD
+Bootloader Version: 	4.0.0.009 
+Application Version: 	4.0.0.023 
+Searching for installed MPLAB IDE X...
+/Applications/microchip/mplabx/v5.30 found
+Agent pid 21604
+2048 SHA256:S4XwsYeQ+MWUS8tIQh84X4J73uLYqyU94pcSsu6tfhI frank@Franks-MacBook-Pro.local (RSA)
+Preparing T410_PIC_boot_4.0.0.009_app_4.0.0.023
+VIU NAME:  T410
+################################################################################
+################################################################################
+Application firmware
+################################################################################
+################################################################################
+Application firmware
+
+PASS: Application firmware "2048EFM default" version 4.0.0.023  binary image
+
+PASS: Application firmware "2048EFM default" version 4.0.0.023 STRIPPED binary image
+################################################################################
+################################################################################
+Application firmware
+
+PASS: Application firmware "2048EFM qa" version 4.0.0.023  binary image
+
+PASS: Application firmware "2048EFM qa" version 4.0.0.023 STRIPPED binary image
+################################################################################
+################################################################################
+Application firmware
+
+PASS: Application firmware "2048EFM lab" version 4.0.0.023  binary image
+
+PASS: Application firmware "2048EFM lab" version 4.0.0.023 STRIPPED binary image
+################################################################################
+################################################################################
+Application firmware
+
+PASS: Application firmware "2048EFM production" version 4.0.0.023  binary image
+
+PASS: Application firmware "2048EFM production" version 4.0.0.023 STRIPPED binary image
+################################################################################
+################################################################################
+Bootloader firmware
+################################################################################
+################################################################################
+Creating bootloader binary image
+
+PASS: Bootloader firmware "2048EFM default" version 4.0.0.009 binary image
+
+PASS: Bootloader firmware "2048FM default" version 4.0.0.009 STRIPPED binary image
+
+################################################################################
+################################################################################
+Creating Merged hex images
+
+PASS: T410_PIC_boot_4.0.0.009_app_4.0.0.023.hex merged hex image
+
+
+#################################################
+#################################################
+Pushing files to bitbucket...
+/Users/frank/Desktop/T410_BUILD/PIC_OUTPUT/OUTPUT_2020-02-05-16_22_50/
