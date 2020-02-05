@@ -1,0 +1,122 @@
+T410NRF Build Script Version: 0.1.3
+Build Started...
+Build Date: 2020-02-05-16_29_29
+Root Directory: /Users/frank/Desktop/T410_BUILD
+Bootloader Version: 	1.0.3 
+Application Version: 	012 
+Agent pid 32171
+2048 SHA256:S4XwsYeQ+MWUS8tIQh84X4J73uLYqyU94pcSsu6tfhI frank@Franks-MacBook-Pro.local (RSA)
+MAKE SOURCE DIR OK
+MAKE OUTPUT DIR OK
+DIR CREATED /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29
+GO TO DIRECTORY /Users/frank/Desktop/T410_BUILD/NRF_SOURCE
+BUILD SUCCESSFUL
+/Users/frank/Desktop/T410_BUILD/NRF_SOURCE/nrf52app/nRF5_SDK/examples/ble_peripheral/ble_app_hrs_freertos/pca10040/s132/ses/Output/Release/Exe/ble_app_hrs_freertos_pca10040_s132.hexFILE EXISTS
+MOVE HEX OK
+MAKE SOURCE DIR OK
+MAKE OUTPUT DIR OK
+DIR CREATED /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29
+GO TO DIRECTORY /Users/frank/Desktop/T410_BUILD/NRF_SOURCE
+BUILD SUCCESSFUL
+/Users/frank/Desktop/T410_BUILD/NRF_SOURCE/nrf52bootloader/nRF52/SDK_15.0.0/secure_bootloader/pca10040_uart_debug/ses/Output/Release/Exe/secure_bootloader_uart_mbr_pca10040_debug.hexFILE EXISTS
+MOVE HEX OK
+COPY SOFTDEVICE OK
+
+Note: Generating a DFU settings page with backup page included.
+This is only required for bootloaders from nRF5 SDK 15.1 and newer.
+If you want to skip backup page generation, use --no-backup option.
+
+Generated Bootloader DFU settings .hex file and stored it in: settings.hex
+
+Bootloader DFU Settings:
+* File:                     settings.hex
+* Family:                   nRF52
+* Start Address:            0x0007F000
+* CRC:                      0xD701A519
+* Settings Version:         0x00000001 (1)
+* App Version:              0x00002711 (10001)
+* Bootloader Version:       0x00000001 (1)
+* Bank Layout:              0x00000000
+* Current Bank:             0x00000000
+* Application Size:         0x0001C7EC (116716 bytes)
+* Application CRC:          0x098F16D4
+* Bank0 Bank Code:          0x00000001
+* Softdevice Size:          0x00000000 (0 bytes)
+* Boot Validation CRC:      0x00000000
+* SD Boot Validation Type:  0x00000000 (0)
+* App Boot Validation Type: 0x00000000 (0)
+
+Parsing input hex files.
+Merging files.
+Storing merged file.
+Parsing input hex files.
+Merging files.
+Storing merged file.
+
+|===============================================================|
+|##      ##    ###    ########  ##    ## #### ##    ##  ######  |
+|##  ##  ##   ## ##   ##     ## ###   ##  ##  ###   ## ##    ## |
+|##  ##  ##  ##   ##  ##     ## ####  ##  ##  ####  ## ##       |
+|##  ##  ## ##     ## ########  ## ## ##  ##  ## ## ## ##   ####|
+|##  ##  ## ######### ##   ##   ##  ####  ##  ##  #### ##    ## |
+|##  ##  ## ##     ## ##    ##  ##   ###  ##  ##   ### ##    ## |
+| ###  ###  ##     ## ##     ## ##    ## #### ##    ##  ######  |
+|===============================================================|
+|You are not providing a signature key, which means the DFU     |
+|files will not be signed, and are vulnerable to tampering.     |
+|This is only compatible with a signature-less bootloader and is|
+|not suitable for production environments.                      |
+|===============================================================|
+
+Zip created at /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_app.zip
+Archive:  /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_app.zip
+ extracting: manifest.json           
+ extracting: T410_production_1.0.1_app.bin  
+ extracting: T410_production_1.0.1_app.dat  
+
+|===============================================================|
+|##      ##    ###    ########  ##    ## #### ##    ##  ######  |
+|##  ##  ##   ## ##   ##     ## ###   ##  ##  ###   ## ##    ## |
+|##  ##  ##  ##   ##  ##     ## ####  ##  ##  ####  ## ##       |
+|##  ##  ## ##     ## ########  ## ## ##  ##  ## ## ## ##   ####|
+|##  ##  ## ######### ##   ##   ##  ####  ##  ##  #### ##    ## |
+|##  ##  ## ##     ## ##    ##  ##   ###  ##  ##   ### ##    ## |
+| ###  ###  ##     ## ##     ## ##    ## #### ##    ##  ######  |
+|===============================================================|
+|You are not providing a signature key, which means the DFU     |
+|files will not be signed, and are vulnerable to tampering.     |
+|This is only compatible with a signature-less bootloader and is|
+|not suitable for production environments.                      |
+|===============================================================|
+
+Zip created at /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_boot.zip
+Archive:  /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_boot.zip
+ extracting: T410_production_1.0.1_boot.bin  
+ extracting: T410_production_1.0.1_boot.dat  
+ extracting: manifest.json           
+
+|===============================================================|
+|##      ##    ###    ########  ##    ## #### ##    ##  ######  |
+|##  ##  ##   ## ##   ##     ## ###   ##  ##  ###   ## ##    ## |
+|##  ##  ##  ##   ##  ##     ## ####  ##  ##  ####  ## ##       |
+|##  ##  ## ##     ## ########  ## ## ##  ##  ## ## ## ##   ####|
+|##  ##  ## ######### ##   ##   ##  ####  ##  ##  #### ##    ## |
+|##  ##  ## ##     ## ##    ##  ##   ###  ##  ##   ### ##    ## |
+| ###  ###  ##     ## ##     ## ##    ## #### ##    ##  ######  |
+|===============================================================|
+|You are not providing a signature key, which means the DFU     |
+|files will not be signed, and are vulnerable to tampering.     |
+|This is only compatible with a signature-less bootloader and is|
+|not suitable for production environments.                      |
+|===============================================================|
+
+Zip created at /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_sdboot.zip
+Archive:  /Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/T410_production_1.0.1_sdboot.zip
+ extracting: sd_bl.dat               
+ extracting: manifest.json           
+ extracting: sd_bl.bin               
+
+#################################################
+#################################################
+Pushing files to bitbucket...
+/Users/frank/Desktop/T410_BUILD/NRF_OUTPUT/OUTPUT_2020-02-05-16_29_29/
